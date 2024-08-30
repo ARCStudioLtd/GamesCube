@@ -1307,6 +1307,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_02x16_Odd_Even"
 			(pin_numbers hide)
 			(pin_names
@@ -4190,10 +4292,6 @@
 		(uuid "66109fa8-36dd-426a-9166-c6e50b9c1bf8")
 	)
 	(no_connect
-		(at 476.25 204.47)
-		(uuid "67270649-f5f5-42d5-90ed-736449f13b0d")
-	)
-	(no_connect
 		(at 203.2 184.15)
 		(uuid "6be5e863-8eb8-4cd5-a9f2-02239e90560a")
 	)
@@ -4204,10 +4302,6 @@
 	(no_connect
 		(at 203.2 138.43)
 		(uuid "6d599379-cf26-4024-a45f-71bca3e52b89")
-	)
-	(no_connect
-		(at 260.35 212.09)
-		(uuid "6f176517-92aa-46f8-b1a8-797bf5cf65b6")
 	)
 	(no_connect
 		(at 156.21 173.99)
@@ -4224,10 +4318,6 @@
 	(no_connect
 		(at 156.21 146.05)
 		(uuid "88a5b0da-ad4b-476b-8313-1c7f2bab5f5a")
-	)
-	(no_connect
-		(at 350.52 146.05)
-		(uuid "8b5cb1c3-9886-468a-80ce-befa6c2aa087")
 	)
 	(no_connect
 		(at 156.21 163.83)
@@ -4250,18 +4340,6 @@
 		(uuid "9b529f7d-c41a-4b70-826c-98dc92cc620c")
 	)
 	(no_connect
-		(at 257.81 486.41)
-		(uuid "9e4dda5e-44a6-458e-bbf1-aba9cf3e40a3")
-	)
-	(no_connect
-		(at 260.35 299.72)
-		(uuid "9f46db44-0cbc-4a98-9edf-e6d580fcb0b5")
-	)
-	(no_connect
-		(at 379.73 153.67)
-		(uuid "a0eff781-8d19-4ea6-94fa-15b5de4fa116")
-	)
-	(no_connect
 		(at 179.07 156.21)
 		(uuid "a44f8b47-1e10-4c71-baf1-38179924085b")
 	)
@@ -4278,10 +4356,6 @@
 		(uuid "abfab92c-029a-47b6-be65-ebbada8a0098")
 	)
 	(no_connect
-		(at 260.35 335.28)
-		(uuid "b64d7b51-2411-42a1-b7b0-e2a3a3779301")
-	)
-	(no_connect
 		(at 203.2 146.05)
 		(uuid "bdc734de-886d-4154-98e3-f1f8b6fd5265")
 	)
@@ -4292,10 +4366,6 @@
 	(no_connect
 		(at 156.21 148.59)
 		(uuid "c359b96a-925c-4c74-bc01-74aba31df34f")
-	)
-	(no_connect
-		(at 355.6 386.08)
-		(uuid "c62090b5-f208-4ddf-9891-e9d4c5d2bb74")
 	)
 	(no_connect
 		(at 203.2 148.59)
@@ -4326,20 +4396,8 @@
 		(uuid "d1eeea3a-53be-4efb-b744-ae009f13a628")
 	)
 	(no_connect
-		(at 355.6 420.37)
-		(uuid "d9bf12a9-79a4-4253-bc3b-ae885cf8a9c7")
-	)
-	(no_connect
 		(at 179.07 158.75)
 		(uuid "dbd23998-c5d8-4c4f-8d16-8c5c06395f46")
-	)
-	(no_connect
-		(at 119.38 212.09)
-		(uuid "de2231a9-0531-4548-9b5e-72674f6ef26d")
-	)
-	(no_connect
-		(at 350.52 233.68)
-		(uuid "e4bc1321-caa5-4980-8512-c1ade2ff1e47")
 	)
 	(no_connect
 		(at 179.07 153.67)
@@ -5146,7 +5204,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 386.08) (xy 355.6 386.08)
+			(xy 344.17 386.08) (xy 354.33 386.08)
 		)
 		(stroke
 			(width 0)
@@ -7485,6 +7543,17 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 335.28) (xy 266.7 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 109 0 255 1)
+		)
+		(uuid "72ed8a00-7984-4637-aff8-75dfeb8752a2")
+	)
+	(wire
+		(pts
 			(xy 278.13 427.99) (xy 285.75 427.99)
 		)
 		(stroke
@@ -7627,7 +7696,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 219.71) (xy 121.92 222.25)
+			(xy 123.19 219.71) (xy 123.19 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7724,6 +7793,17 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 212.09) (xy 266.7 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 109 0 255 1)
+		)
+		(uuid "7cd142a0-3107-43ea-a14e-5056d42404c5")
+	)
+	(wire
+		(pts
 			(xy 266.7 327.66) (xy 269.24 327.66)
 		)
 		(stroke
@@ -7754,17 +7834,6 @@
 			(color 0 0 0 1)
 		)
 		(uuid "7d947d1b-deaf-456e-a6e1-268f4e1ce863")
-	)
-	(wire
-		(pts
-			(xy 260.35 299.72) (xy 267.97 299.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 109 0 255 1)
-		)
-		(uuid "7da1530b-2b92-4385-9b0b-11a36a3b7a99")
 	)
 	(wire
 		(pts
@@ -8192,17 +8261,6 @@
 			(color 255 0 236 1)
 		)
 		(uuid "8de2c524-133a-46a6-9f3c-771419104784")
-	)
-	(wire
-		(pts
-			(xy 260.35 335.28) (xy 266.7 335.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 109 0 255 1)
-		)
-		(uuid "8e08fd93-1bc1-4338-a886-29986ed155b6")
 	)
 	(wire
 		(pts
@@ -9132,17 +9190,6 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 212.09) (xy 260.35 212.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 109 0 255 1)
-		)
-		(uuid "b30c3ca1-2869-488b-ad92-713b5a69acb7")
-	)
-	(wire
-		(pts
 			(xy 257.81 457.2) (xy 265.43 457.2)
 		)
 		(stroke
@@ -9154,7 +9201,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 219.71) (xy 121.92 219.71)
+			(xy 116.84 219.71) (xy 123.19 219.71)
 		)
 		(stroke
 			(width 0)
@@ -9418,6 +9465,17 @@
 			(color 109 0 255 1)
 		)
 		(uuid "bb5ead74-bd03-40eb-9c94-40c351346960")
+	)
+	(wire
+		(pts
+			(xy 123.19 212.09) (xy 119.38 212.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 109 0 255 1)
+		)
+		(uuid "bbf3ca6d-7e07-4961-8b74-8117f435bf84")
 	)
 	(wire
 		(pts
@@ -9831,6 +9889,17 @@
 			(color 0 0 0 1)
 		)
 		(uuid "cb03ebf5-c8b0-4e22-800a-fd9274530a40")
+	)
+	(wire
+		(pts
+			(xy 260.35 299.72) (xy 267.97 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 109 0 255 1)
+		)
+		(uuid "cdd58709-90ab-4273-a90a-716d3e003551")
 	)
 	(wire
 		(pts
@@ -12161,7 +12230,7 @@
 	)
 	(global_label "VDD"
 		(shape input)
-		(at 121.92 222.25 270)
+		(at 123.19 222.25 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12171,7 +12240,7 @@
 		)
 		(uuid "3091ea93-be3c-4846-a715-7c4e8015e55e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 228.8638 90)
+			(at 123.19 228.8638 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15266,6 +15335,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 350.52 146.05 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0592763b-eba5-47ac-bad7-514e6a65d9d0")
+		(property "Reference" "TP3"
+			(at 355.6 144.7799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 355.6 147.3199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 350.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 350.52 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1b40ab1-c3ac-4b65-b4e7-83f567349cae")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 521.97 148.59 0)
 		(unit 1)
@@ -15328,6 +15464,71 @@
 			(project "Rubik's Tidied"
 				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 299.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "095b56fe-cbc1-4f9e-89e8-c2e33d5d7f5a")
+		(property "Reference" "TP7"
+			(at 257.048 294.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 257.048 297.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 260.35 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 294.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7c7df98-6a85-4237-b6d7-7c3475b66b94")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15471,6 +15672,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 212.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0d10759d-fdf4-4532-8947-670a0609a5b9")
+		(property "Reference" "TP2"
+			(at 257.048 207.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 257.048 209.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 260.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae34f7c3-aa06-44eb-9610-20f8fc99fb06")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Zener")
 		(at 544.83 191.77 0)
 		(unit 1)
@@ -15601,6 +15867,73 @@
 			(project "Rubik's Tidied"
 				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
 					(reference "SW19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 355.6 420.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ef770cd-b8e7-45e2-aa76-64ec16e21ff2")
+		(property "Reference" "TP10"
+			(at 360.68 419.0999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 360.68 421.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 355.6 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 425.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 355.6 420.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88abdf88-e659-479e-b4e9-0409c54f073e")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -18059,6 +18392,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 476.25 204.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "342a928f-d913-4627-b669-f61df55db82b")
+		(property "Reference" "TP5"
+			(at 481.33 203.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 481.33 205.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 476.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 476.25 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 476.25 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf981d27-ddf7-4336-82f0-b2cf7d53f77d")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 303.53 424.18 180)
 		(unit 1)
@@ -18273,6 +18673,73 @@
 			(project "Rubik's Tidied"
 				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
 					(reference "SW12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 354.33 386.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b1213db-3a83-4216-b5e3-a083ccfe88ff")
+		(property "Reference" "TP9"
+			(at 359.41 384.8099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 359.41 387.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 354.33 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 354.33 391.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 354.33 386.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fefdda55-315c-4466-a561-b9c44e3dab88")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -21905,6 +22372,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 123.19 212.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91f51c6a-88d9-4833-a667-ad58b30757e7")
+		(property "Reference" "TP1"
+			(at 128.27 210.8199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 128.27 213.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 123.19 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 123.19 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4d3072a1-5294-4dfd-88ea-2f1cff66f8df")
+		)
+		(instances
+			(project ""
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 303.53 482.6 180)
 		(unit 1)
@@ -23239,6 +23773,71 @@
 			(project "Rubik's Tidied"
 				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
 					(reference "D52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 379.73 153.67 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5b2034b-c0e2-4315-9823-a4af95141855")
+		(property "Reference" "TP4"
+			(at 376.428 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 376.428 151.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 379.73 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 379.73 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59234208-3ffb-483b-9a13-42df4f36ec1d")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -25956,6 +26555,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 260.35 335.28 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e22c4163-2431-453c-9b5e-124ce37df168")
+		(property "Reference" "TP8"
+			(at 257.048 330.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 257.048 332.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 260.35 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 260.35 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 260.35 335.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7337a6a9-b5f6-4418-bee1-83e90f906fba")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 486.41 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2460e7b-4360-45be-a46f-38b222dacb02")
+		(property "Reference" "TP11"
+			(at 254.508 481.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 254.508 483.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 257.81 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 257.81 481.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 486.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4919eae1-dd47-4d44-9978-7319f672e9eb")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "LED:WS2812B")
 		(at 275.59 266.7 0)
 		(unit 1)
@@ -27151,6 +27880,73 @@
 			(project "Rubik's Tidied"
 				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
 					(reference "LED4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 350.52 233.68 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa3351ef-85d4-496e-b387-40ff72ab3c92")
+		(property "Reference" "TP6"
+			(at 355.6 232.4099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Jumper"
+			(at 355.6 234.9499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm"
+			(at 350.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 350.52 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 350.52 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "496e9792-89a5-4b29-a3e6-6a4b56b64331")
+		)
+		(instances
+			(project "GameCube"
+				(path "/99d96c52-6fa2-46a4-bbdc-15384902690c"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
