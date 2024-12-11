@@ -52,28 +52,7 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [
-        "hole_clearance|132740000|120015000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|f718f4e0-a15e-44d9-9708-bfb80bbf2f05",
-        "hole_clearance|134975000|117535000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|3d5aaa12-ba9c-41f3-aeb6-041aee57eb41",
-        "hole_clearance|134975000|120015000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|fb46418c-81d5-42a0-bf32-ca78a76114de",
-        "hole_clearance|136820000|120015000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|a2108937-d554-4da6-9153-8ed9aaf1d7e5",
-        "hole_clearance|155600000|117535000|29593c60-b8d1-4747-9fee-dccbaf263106|46904c4d-ae28-4f4a-be5b-d9ba7166394b",
-        "hole_clearance|155600000|120015000|29593c60-b8d1-4747-9fee-dccbaf263106|14eada28-65b0-4856-ae99-edfd929d2aab",
-        "hole_clearance|157140000|117535000|29593c60-b8d1-4747-9fee-dccbaf263106|e12fbf31-ce13-4459-bdb0-da8a48bc5592",
-        "hole_clearance|157140000|120015000|29593c60-b8d1-4747-9fee-dccbaf263106|b5fde194-67e6-4755-91f2-a916a8b8149c",
-        "shorting_items|139975000|114535000|d691b1d0-7896-498e-9fb9-d222936415de|bcaccefd-7eda-451a-9581-7a092861704a",
-        "shorting_items|160680000|114865000|95177489-5f6b-4124-9f14-86d2fef3c855|f453684c-87fb-4f5b-8ce9-3a3c7c17242c",
-        "shorting_items|162220000|114865000|95177489-5f6b-4124-9f14-86d2fef3c855|5b2294f1-1d88-4794-8dcd-3950fea3a7c9",
-        "solder_mask_bridge|132740000|120015000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|f718f4e0-a15e-44d9-9708-bfb80bbf2f05",
-        "solder_mask_bridge|134975000|117535000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|3d5aaa12-ba9c-41f3-aeb6-041aee57eb41",
-        "solder_mask_bridge|135280000|120015000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|fb46418c-81d5-42a0-bf32-ca78a76114de",
-        "solder_mask_bridge|136820000|120015000|b6a6e05f-cc5b-49b0-ba5b-c733ab62cfce|a2108937-d554-4da6-9153-8ed9aaf1d7e5",
-        "solder_mask_bridge|139975000|114535000|d691b1d0-7896-498e-9fb9-d222936415de|bcaccefd-7eda-451a-9581-7a092861704a",
-        "solder_mask_bridge|155600000|120015000|29593c60-b8d1-4747-9fee-dccbaf263106|14eada28-65b0-4856-ae99-edfd929d2aab",
-        "solder_mask_bridge|157140000|120015000|29593c60-b8d1-4747-9fee-dccbaf263106|b5fde194-67e6-4755-91f2-a916a8b8149c",
-        "solder_mask_bridge|160680000|114865000|95177489-5f6b-4124-9f14-86d2fef3c855|f453684c-87fb-4f5b-8ce9-3a3c7c17242c",
-        "solder_mask_bridge|162220000|114865000|95177489-5f6b-4124-9f14-86d2fef3c855|5b2294f1-1d88-4794-8dcd-3950fea3a7c9"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -452,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "GameCubeR2.kicad_pro",
+    "filename": "GameCube.kicad_pro",
     "version": 1
   },
   "net_settings": {
